@@ -1,0 +1,12 @@
+# no of trelling zero in the factorial no:
+
+
+import math
+x = int(input("enter the number:"))
+d = x
+s = 0
+while d % 5 == 0:
+    s =s + int(d / 5)
+    d = int(d // 5)
+print(s, "is the  number of the trelling zeros are:")
+
